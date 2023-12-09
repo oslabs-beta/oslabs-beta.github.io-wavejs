@@ -172,4 +172,8 @@ button {
   button {
     width: 200px;
   }
+
+  .blueAccentLine {
+    width: 420px;
+  }
 }
