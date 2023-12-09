@@ -1,2 +1,3 @@
-# oslabs-beta.github.io-wavejs
-wave.js GitHub Project Page
+# wave.js Website
+
+The official website for wave.js.
