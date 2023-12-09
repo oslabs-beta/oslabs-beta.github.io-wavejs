@@ -158,9 +158,6 @@ button {
 }
 
 @media (max-width: 450px) {
-  #headerImage img {
-    width: 475px;
-  }
   #logo {
     width: 150px;
     padding: 15px 50px 15px 20px;
