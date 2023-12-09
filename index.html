@@ -4,8 +4,126 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>wave.js</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="stylesheet.css" />
+    <link rel="icon" type="image/x-icon" href="./img/Wave_Icon.png" />
   </head>
   <body>
-    <h1>Hello, World!</h1>
+    <nav>
+      <img id="logo" src="./img/Logo_Transparent_Background.png" />
+      <ul>
+        <li>
+          <a href="https://github.com/oslabs-beta/wavejs"
+            ><img src="./img/Icon_GH.png"
+          /></a>
+        </li>
+        <li>
+          <a href="https://www.npmjs.com/package/@wave.js/wave.js"
+            ><img src="./img/Icon_NPM.png"
+          /></a>
+        </li>
+        <li><img src="./img/Icon_Doc.png" /></li>
+      </ul>
+    </nav>
+    <div id="headerImage" class="alignCenter">
+      <img src="./img/Main_Image.png" />
+    </div>
+    <p style="text-align: center"><strong>v1.0.0 Now Available!</strong></p>
+    <div id="mainBtns" class="alignCenter">
+      <a href="https://github.com/oslabs-beta/wavejs"
+        ><button class="alignCenter">
+          <img class="icon" src="./img/Icon_GH.png" />View on GitHub
+        </button></a
+      >
+      <a href="https://www.npmjs.com/package/@wave.js/wave.js"
+        ><button class="alignCenter">
+          <img class="icon" src="./img/Icon_NPM.png" />Install on NPM
+        </button></a
+      >
+      <a href="https://www.npmjs.com/package/@wave.js/wave.js"
+        ><button class="alignCenter">
+          <img class="icon" src="./img/Icon_Doc.png" />Read the Docs
+        </button></a
+      >
+    </div>
+    <div class="homepageText">
+      <h1>Introducing wave.js</h1>
+      <img src="./img/Blue_Accent_Line.png" />
+      <p>
+        wave.js is a scalable video live streaming framework, with multi-stream
+        support for real-time RTMP ingest, encoding to HLS and MPEG-DASH, and
+        low-latency live stream delivery. Targeted at helping dev teams deploy
+        live streaming applications with greater ease and efficiency, wave.js is
+        an open source server framework for Node.js that features customizable
+        configuration options to tailor video and audio live streams to meet the
+        needs of any professional dev environment.
+      </p>
+      <h2>Features</h2>
+      <img src="./img/Blue_Accent_Line.png" />
+      <div class="leftIndent">
+        <h3>
+          <span><img src="./img/Wave_Icon.png" class="waveIcon" /></span>RTMP
+          Ingest
+        </h3>
+        <p>
+          wave.js supports real-time ingest of multiple synchronous streams of
+          RTMP over a single port and is ideal for use with OBS Studio, one of
+          the leading tools used by Twitch streamers and content creators.
+        </p>
+        <h3>
+          <span><img src="./img/Wave_Icon.png" class="waveIcon" /></span
+          >Encoding to HLS & MPEG-DASH
+        </h3>
+        <p>
+          At launch, wave.js features powerful real-time encoding to popular
+          streaming protocols HLS and MPEG-DASH via Ffmpeg’s open source video
+          library. Users can configure encoding settings – including audio and
+          video bitrate and codec – ensuring streams are delivered in whatever
+          format required.
+        </p>
+        <h3>
+          <span><img src="./img/Wave_Icon.png" class="waveIcon" /></span
+          >Multi-Stream Ingest & Delivery
+        </h3>
+        <p>
+          Developed with scalability in mind, wave.js is capable of ingesting
+          and outputting a high volume of concurrent live streams.
+        </p>
+        <h3>
+          <span><img src="./img/Wave_Icon.png" class="waveIcon" /></span>Video
+          Chunking
+        </h3>
+        <p>
+          Chunking live video into smaller segments expedites real-time encoding
+          and delivery, enabling low-latency live streams. Automatic video
+          chunking is managed by Ffmpeg, with configuration options for dev
+          teams to manage chunking by length or size.
+        </p>
+        <h3>
+          <span><img src="./img/Wave_Icon.png" class="waveIcon" /></span>Saving
+          Files for On-Demand Viewing
+        </h3>
+        <p>
+          Users can configure file location to save video and audio streams
+          locally or on the cloud, for on-demand playback after live streams
+          have ended.
+        </p>
+      </div>
+      <h2>Getting Started</h2>
+      <img src="./img/Blue_Accent_Line.png" />
+      <p>To get started, install the npm package:</p>
+      <code class="leftIndent" style="font-size: 1.25rem"
+        >npm i @wave.js/wave.js
+      </code>
+      <p>
+        Once you've installed wave.js, read the documentation to configure your
+        live stream and get up-and-running.
+      </p>
+    </div>
   </body>
 </html>

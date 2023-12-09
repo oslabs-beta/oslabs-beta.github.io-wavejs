@@ -1,0 +1,168 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  color: white;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #212064;
+}
+
+nav li {
+  list-style: none;
+  margin-right: 25px;
+}
+
+nav ul {
+  display: flex;
+}
+
+#logo {
+  width: 250px;
+  padding: 15px 25px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 15px;
+}
+
+h2 {
+  margin-top: 60px;
+}
+
+h3 {
+  margin-top: 40px;
+}
+
+p {
+  margin: 30px 0;
+}
+
+.alignCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.leftIndent {
+  margin-left: 50px;
+}
+
+#headerImage img {
+  width: 1350px;
+  margin: 50px;
+}
+
+.homepageText {
+  width: 1200px;
+  margin: 110px auto;
+  /* margin-left: auto;
+  margin-right: auto; */
+}
+
+button {
+  color: white;
+  background: #212064;
+  padding: 10px 30px;
+  margin: 10px 15px;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.icon {
+  padding-right: 10px;
+}
+
+.waveIcon {
+  width: 35px;
+  padding-right: 15px;
+}
+
+@media (max-width: 1800px) {
+  button {
+    width: 200px;
+  }
+}
+
+@media (max-width: 1600px) {
+  #headerImage img {
+    width: 1200px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .homepageText {
+    width: 1000px;
+  }
+}
+
+@media (max-width: 1150px) {
+  .homepageText {
+    width: 875px;
+  }
+}
+
+@media (max-width: 1000px) {
+  #headerImage img {
+    width: 1000px;
+  }
+  .homepageText {
+    width: 650px;
+  }
+}
+
+@media (max-width: 850px) {
+  #headerImage img {
+    width: 700px;
+  }
+  #logo {
+    width: 175px;
+    padding: 15px 25px;
+  }
+  li img {
+    height: 30px;
+  }
+}
+
+@media (max-width: 750px) {
+  #mainBtns {
+    flex-direction: column;
+  }
+  button {
+    width: 300px;
+  }
+  .homepageText {
+    width: 450px;
+  }
+}
+
+@media (max-width: 450px) {
+  #headerImage img {
+    width: 700px;
+  }
+  #logo {
+    width: 150px;
+    padding: 15px 50px 15px 20px;
+  }
+  li img {
+    height: 22px;
+  }
+}
