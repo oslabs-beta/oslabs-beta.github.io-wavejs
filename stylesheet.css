@@ -82,9 +82,29 @@ button {
   background: #212064;
   padding: 10px 30px;
   margin: 10px 15px;
+  border: 2px #212064 solid;
   border-radius: 5px;
   font-size: 1rem;
   font-weight: bold;
+}
+
+button:hover {
+  cursor: pointer;
+  border: 2px gray solid;
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  cursor: pointer;
+  text-decoration: underline;
 }
 
 .icon {
@@ -94,6 +114,16 @@ button {
 .waveIcon {
   width: 35px;
   padding-right: 15px;
+}
+
+.contributors {
+  display: flex;
+}
+
+.contributors li {
+  list-style-type: none;
+  margin-top: 25px;
+  margin-left: 50px;
 }
 
 @media (max-width: 1800px) {
@@ -126,6 +156,14 @@ button {
   }
   .homepageText {
     width: 650px;
+  }
+  .contributors {
+    flex-direction: column;
+  }
+
+  .contributors .waveIcon {
+    width: 35px;
+    height: 20.6px;
   }
 }
 
