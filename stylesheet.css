@@ -143,6 +143,9 @@ button {
 }
 
 @media (max-width: 750px) {
+  #headerImage img {
+    width: 600px;
+  }
   #mainBtns {
     flex-direction: column;
   }
@@ -156,7 +159,7 @@ button {
 
 @media (max-width: 450px) {
   #headerImage img {
-    width: 700px;
+    width: 400px;
   }
   #logo {
     width: 150px;
@@ -164,5 +167,8 @@ button {
   }
   li img {
     height: 22px;
+  }
+  .homepageText {
+    width: 400px;
   }
 }
